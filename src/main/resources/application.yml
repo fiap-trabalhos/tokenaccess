@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    function:
+      definition: generateToken
+      web:
+        export:
+          enabled: true
+
+aws:
+#  accesskey: {access_key}
+#  secretkey: {secret_key}
+  region: us-east-1
+
+cielo:
+  merchant-id: "a3e0d83d-0f2f-47a1-86e7-50918e9f13a2"
+  merchant-key: "YHLCOJOODWZEPRIQEVVULZNDLPNSUQVPBJPLHPLC"
+  token:
+    url: "https://apisandbox.cieloecommerce.cielo.com.br"
